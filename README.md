@@ -1,7 +1,7 @@
 # Star Schema - Tabela Fato: Professor 📊
 
 ## Sobre o Projeto ✨
-Este projeto foi desenvolvido para ilustrar e explicar o conceito de Star Schema (Esquema Estrela) em banco de dados, usando como exemplo uma tabela fato centrada em **Professor**. O Star Schema é amplamente utilizado em Data Warehousing e Business Intelligence devido à sua simplicidade e eficiência em consultas analíticas.
+Este projeto faz parte do desafio do bootcamp da dio em parceria com a SUZANO e foi desenvolvido para ilustrar e explicar o conceito de Star Schema (Esquema Estrela) em banco de dados, usando como exemplo uma tabela fato centrada em **Professor**. O Star Schema é amplamente utilizado em Data Warehousing e Business Intelligence devido à sua simplicidade e eficiência em consultas analíticas.
 
 ### O que é Star Schema? 🌟
 O Star Schema é uma abordagem de modelagem de dados que organiza os dados em:
