@@ -1,0 +1,44 @@
+Table dim_professor {
+    id_professor INT [pk]
+    nome VARCHAR
+    titulacao VARCHAR
+    data_admissao DATE
+}
+
+Table dim_disciplina {
+    id_disciplina INT [pk]
+    nome VARCHAR
+    carga_horaria INT
+}
+
+Table dim_departamento {
+    id_departamento INT [pk]
+    nome VARCHAR
+    responsavel VARCHAR
+}
+
+Table dim_localizacao {
+    id_localizacao INT [pk]
+    campus VARCHAR
+    predio VARCHAR
+    sala VARCHAR
+}
+
+Table dim_tempo {
+    id_tempo INT [pk]
+    data DATE
+    ano INT
+    mes INT
+    dia_semana VARCHAR
+}
+
+Table fato_professor {
+    id_fato INT [pk]
+    id_professor INT [ref: > dim_professor.id_professor]
+    id_disciplina INT [ref: > dim_disciplina.id_disciplina]
+    id_departamento INT [ref: > dim_departamento.id_departamento]
+    id_localizacao INT [ref: > dim_localizacao.id_localizacao]
+    id_tempo INT [ref: > dim_tempo.id_tempo]
+    carga_horaria INT
+    avaliacao DECIMAL
+}
