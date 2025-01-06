@@ -16,7 +16,8 @@ Este projeto simula um cenário acadêmico onde analisamos informações relacio
 
 ## Modelo Relacional 🗂️
 ### Diagrama Lógico 🖼️
-![Modelo Star Schema](StarSchema.PNG)
+![Modelo Star Schema](StarSchema.png)
+
 
 O modelo é composto por:
 
